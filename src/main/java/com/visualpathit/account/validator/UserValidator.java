@@ -42,5 +42,13 @@ public class UserValidator implements Validator {
         }
         System.out.println("<h1>Welcome " + user.getUsername() + "</h1>");
     }
+    public Boolean ErrTest()
+    {
+        Boolean error;
+        return true;
+        
+        System.out.println("I got heere by mistake");
+
+    }
     
 }
