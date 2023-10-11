@@ -42,9 +42,10 @@ public class UserValidator implements Validator {
     }
     public Boolean ErrTest()
     {
+        Boolean try;
         return true;
         
-        System.out.println("I got heere by mistake");
+        
 
     }
 }
