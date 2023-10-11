@@ -45,10 +45,11 @@ public class UserValidator implements Validator {
     }
     public Boolean ErrTest()
     {
+        String eer;
         Boolean error;
         return true;
         
-        System.out.println("I got heere by mistake");
+        //System.out.println("I got heere by mistake");
 
     }
     
