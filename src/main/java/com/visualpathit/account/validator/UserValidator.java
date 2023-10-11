@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
+import java.io.*; 
 
 @Component
 public class UserValidator implements Validator {
@@ -39,13 +40,7 @@ public class UserValidator implements Validator {
         if (!user.getPasswordConfirm().equals(user.getPassword())) {
             errors.rejectValue("passwordConfirm", "Diff.userForm.passwordConfirm");
         }
+        System.out.println("<h1>Welcome " + username + "</h1>");
     }
-    public Boolean ErrTest()
-    {
-        Boolean try;
-        return true;
-        
-        
-
-    }
+    
 }
