@@ -40,10 +40,10 @@ public class UserValidator implements Validator {
             errors.rejectValue("passwordConfirm", "Diff.userForm.passwordConfirm");
         }
     }
-    public Boolean ErrTest(String error_)
+    public Boolean ErrTest()
     {
         return true;
-        public String eroroMe  ="ueuueueu";
+        
         System.out.println("I got heere by mistake");
 
     }
